@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    color: rgb(130, 129, 129);
+    background: rgba(255, 253, 245, 0.181);
+}
+
+a {
+    color: rgb(107, 107, 255);
+    text-decoration: none;
+}
+
+.nav {
+    background-color: rgba(275, 255, 250, 0.2);
+    position: sticky;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 4px black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.logo-img {
+    width: 75px;
+    height: 75px;
+    margin-right: 1rem;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.item {
+    margin-left: 1.3rem;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.header-content {
+    margin-top: 5rem;
+    text-align: center ;
+}
+
+.header-desc {
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.header-img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 150px;
+}
+
+.projects {
+    width: 650px;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#project-list {
+    line-height: 40px;
+    list-style-type: none;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    font-size: 20px;
+}
+
+.services {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.service-content {
+    display: flex;
+}
+
+.service {
+    margin: 0 2rem;
+    padding: 1rem;
+    box-shadow: 2px 2px 4px black;
+    text-align: center;
+}
+
+.service-desc {
+    line-height: 30px;
+}
