@@ -18,39 +18,41 @@
     <link rel="stylesheet" href="../alexfuss.github.io/style.css">
     <!--<link rel="stylesheet" href="reset.css">-->
     
-    <!--Links to Bootstrap JS-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
     <!--Link below for font awesome-->
     <script src="https://kit.fontawesome.com/21a4bc7f0c.js" crossorigin="anonymous"></script>
+
+    <!--Link to Google Font API-->
+    <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
 
     <title>Alex Fuss - SEO Guy and Aspiring Web Developer / Designer</title>
     <meta name="description" content="This is a placeholder for a meta description. Hopefully one day I can talk about my awesome web dev skills">
 </head> 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg navbar-inverse">
-        <a class="navbar-brand" href="#">
-            <!--Logo image comes from Free Logo Maker-->
-            <img src="./assets/e6429918-662f-4401-a185-b08dcee2de7f_200x200.png" width="75" height="75" alt="AF custom logo" loading="lazy" class="nav-img">
-          </a>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Menu
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Home</a>
-                <a class="dropdown-item" href="#">Projects</a>
-                <a class="dropdown-item" href="#">About Me</a>
-                <a class="dropdown-item" href="#">Contact</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-    </nav>
+    
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="https://alexfuss.github.io/">
+      <!--Logo image comes from Free Logo Maker-->
+      <img src="../alexfuss.github.io/assets/16996ff1-4730-4e2e-8147-4f3cbe28dbbe_200x200.png" width="50" height="50" alt="AF custom logo" loading="lazy" class="nav-img">
+    </a>
+    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="https://alexfuss.github.io/about-me/">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://alexfuss.github.io/portfolio/">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://alexfuss.github.io/contact/">Contact</a>
+        </li>
+    </div>
+  </nav>
 
     <main class="main-content">
         <h1 class="display-4">Hi, I'm Alex</h1>
@@ -72,13 +74,24 @@
     </section>
 
     <section class="body-content">
-        <div class="jumbotron">
-            <h3>Here are some of my recent projects:</h3>
-            <p class="lead">Each project is representative of the curriculum put together by CWRU</p>
-            <hr class="my-4">
-                <a class="btn btn-link btn-lg btn-outline-primary" href="https://alexfuss.github.io/code-refactor" role="button">Code Refactor</a>
-                <a class="btn btn-link btn-lg btn-outline-primary" href="#" role="button">Bootstrap Practice</a>
-                <a class="btn btn-link btn-lg btn-outline-primary" href="https://alexfuss.github.io/page-test/" role="button">GitHub Practice</a>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3>Here are some of my recent projects:</h3>
+                  <p class="lead">Each project is representative of the curriculum put together by CWRU</p>      
+                </div>
+              </div>
+              <div class="row align-items-center">
+                <div class="col-md-4 col-9 col-lg-4">
+                  <a class="btn btn-link btn-lg btn-outline-primary" href="https://alexfuss.github.io/code-refactor" role="button">Code Refactor</a>
+                </div>
+                <div class="col-md-4 col-9 col-lg-4">
+                  <a class="btn btn-link btn-lg btn-outline-primary" href="https://alexfuss.github.io/about-me/" role="button">Bootstrap Practice</a>
+                </div>
+                <div class="col-md-4 col-9 col-lg-4">
+                  <a class="btn btn-link btn-lg btn-outline-primary" href="https://alexfuss.github.io/page-test/" role="button">GitHub Practice</a>
+                </div>
+              </div>
           </div>
     </section>
 
@@ -86,6 +99,12 @@
         <p class="font-italic text-uppercase">Insert copyright and footer content here</p>
             <i class="far fa-smile-beam fa-2x" style="color:#00A;"></i>
     </footer>
+
+      <!--Links to Bootstrap JS-->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
 
 </body>
 </html>
