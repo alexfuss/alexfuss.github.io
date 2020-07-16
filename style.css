@@ -75,6 +75,10 @@ nav {
     border-radius: 50%;
 }
 
+.in-touch {
+    justify-content: center;
+}
+
 .icons {
     text-align: center;
 }
