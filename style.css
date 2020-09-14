@@ -75,6 +75,11 @@ nav {
     border-radius: 50%;
 }
 
+p {
+    padding: auto;
+    margin: auto;
+}
+
 .in-touch {
     justify-content: center;
 }
